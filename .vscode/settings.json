@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)"
+  ],
+  "github.copilot.enable": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.suggestionDelay": 0,
+  "github.copilot.advanced": {
+    "inlineSuggest.enable": true,
+    "inlineSuggest.count": 3
+  },
+  "github.copilotChat.experimental.projectContext": true,
+  "github.copilotChat.experimental.provideReadme": true,
+  "github.copilotChat.experimental.provideFileTree": true,
+  "github.copilotChat.experimental.providePackageJson": true,
+  "github.copilotChat.experimental.provideWorkspaceConfig": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
